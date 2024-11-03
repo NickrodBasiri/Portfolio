@@ -1,6 +1,11 @@
+import About from "./components/About"
+import './styles/app.css'
+
 function App() {
   return (
-    <h1>Hi there</h1>
+    <div id="body">
+      <About/>
+    </div>
   )
 }
 
