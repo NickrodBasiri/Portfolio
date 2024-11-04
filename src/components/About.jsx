@@ -35,7 +35,13 @@ export default function About() {
                         <img className="icon" src={tailwindIcon}></img>
                     </div>
                 </div>
-                <div id="contact" className="grid-box">contact</div>
+                <div id="contact" className="grid-box">
+                    <h2>Contact</h2>
+                    <i className="contact-icon fa-brands fa-square-github"/>
+                    <i className="contact-icon fa-brands fa-linkedin"/>
+                    <i className="contact-icon fa-envelope fa-solid"/>
+                    <h2>Resume <i className="fa-file fa-regular"/></h2>
+                </div>
                 <div id="about" className="grid-box">about me</div>
             </div>
         </>

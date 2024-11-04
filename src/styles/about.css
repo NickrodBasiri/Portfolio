@@ -1,7 +1,7 @@
 #info-grid {
     display: grid;
     grid-template-rows: 1fr 2fr 2fr;
-    grid-template-columns: 8fr 9fr 8fr;
+    grid-template-columns: 2fr 2fr 1fr;
     background-color: black;
     max-width: 80vw;
     justify-self: center;
@@ -57,6 +57,9 @@
     grid-column: 3 / 4;
     opacity: 0;
     animation: fade-in-right 1s ease-in 0.8s forwards;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
 }
 
 .grid-box {
@@ -80,6 +83,16 @@
 .icon {
     width: 3em;
     height: auto;
+}
+
+.contact-icon {
+    font-size: 3em;
+    transition: text-shadow 0.3s ease-in-out;
+    margin: 0;
+}
+
+.contact-icon:hover {
+    text-shadow: 0 0 10px rgba(0, 150, 255, 0.8), 0 0 20px rgba(0, 150, 255, 0.6);
 }
 
 @keyframes fade-in {
