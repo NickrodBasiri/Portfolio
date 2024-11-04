@@ -36,11 +36,10 @@ export default function About() {
                     </div>
                 </div>
                 <div id="contact" className="grid-box">
-                    <h2>Contact</h2>
-                    <i className="contact-icon fa-brands fa-square-github"/>
-                    <i className="contact-icon fa-brands fa-linkedin"/>
-                    <i className="contact-icon fa-envelope fa-solid"/>
-                    <h2>Resume <i className="fa-file fa-regular"/></h2>
+                    <a href="https://github.com/NickrodBasiri" target="_blank"><i className="contact-icon fa-brands fa-square-github"/></a>
+                    <a href="https://www.linkedin.com/in/nickrodbasiri/" target="_blank"><i className="contact-icon fa-brands fa-linkedin"/></a>
+                    <a href="mailto:basirinickrod@gmail.com"><i className="contact-icon fa-envelope fa-solid"/></a>
+                    <a href="/resume.pdf" target="_blank"><i className="contact-icon fa-file fa-regular"/></a>
                 </div>
                 <div id="about" className="grid-box">about me</div>
             </div>
