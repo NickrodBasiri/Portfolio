@@ -18,7 +18,9 @@ export default function About() {
                     <img id="profile" src={githubPFP}></img>
                     <h1>Nickrod Basiri</h1>
                 </div>
-                <div id="info-card" className="grid-box">Student & Full Stack Developer</div>
+                <div id="info-card" className="grid-box">
+                    <p>Full Stack Developer</p>
+                </div>
                 <div id="tech" className="grid-box">
                     <h1>Tech I Use</h1>
                     <div id="tech-box">
