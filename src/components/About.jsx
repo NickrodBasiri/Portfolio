@@ -22,7 +22,7 @@ export default function About() {
                     <p>Full Stack Developer</p>
                 </div>
                 <div id="tech" className="grid-box">
-                    <h1>Tech I Use</h1>
+                    <h1 id="tech-label">Tech I Use</h1>
                     <div id="tech-box">
                         <img className="icon" src={htmlIcon}></img>
                         <img className="icon" src={cssIcon}></img>
@@ -41,7 +41,7 @@ export default function About() {
                     <a href="mailto:basirinickrod@gmail.com"><i className="contact-icon fa-envelope fa-solid"/></a>
                     <a href="/resume.pdf" target="_blank"><i className="contact-icon fa-file fa-regular"/></a>
                 </div>
-                <div id="about" className="grid-box">about me</div>
+                <div id="about" className="grid-box">Hi! I'm Nickrod Basiri, a second-year Software Engineering student at York University. I'm passionate about continuous learning and using technology to tackle real-world problems, always striving to make a positive impact.</div>
             </div>
         </>
     )

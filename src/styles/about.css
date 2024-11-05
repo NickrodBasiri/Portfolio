@@ -2,8 +2,7 @@
     display: grid;
     grid-template-rows: 1fr 2fr 2fr;
     grid-template-columns: 4fr 4fr 1fr;
-    background-color: black;
-    min-width: 60vw;
+    max-width: fit-content;
     justify-self: center;
     gap: 1em;
     padding: 1em;
@@ -36,6 +35,9 @@
     grid-column: 1 / 2;
     opacity: 0;
     animation: fade-in-left 1s ease-in 0.4s forwards;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
 }
 
 #tech-box {
@@ -43,7 +45,12 @@
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     place-items: center;
-    gap: 3em;
+    column-gap: 3em;
+    row-gap: 3em;
+}
+
+#tech-label {
+    margin: 0;
 }
 
 #about {
@@ -51,6 +58,9 @@
     grid-column: 2 / 4;
     opacity: 0;
     animation: fade-in-bottom 1s ease-in 0.6s forwards;
+    max-width: 24.5em;
+    text-align: center;
+    font-size: 1em;
 }
 #contact {
     grid-row: 1 / 3;

@@ -1,5 +1,5 @@
 #root {
-    background-color: black;
+    background-image: linear-gradient(rgb(4, 42, 53), black);
     height: 100vh;
     display: flex;
     justify-content: center;
