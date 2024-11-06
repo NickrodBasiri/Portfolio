@@ -35,14 +35,22 @@ export default function About() {
                         <img className="icon" src={tailwindIcon}></img>
                     </div>
                 </div>
+                <div id="resume" className='grid-box'>
+                    <button onClick={() => window.open('/resume.pdf', '_blank')} className="resume-button">
+                        Resume
+                    </button>
+
+
+                </div>
                 <div id="contact" className="grid-box">
                     <a href="https://github.com/NickrodBasiri" target="_blank"><i className="contact-icon fa-brands fa-square-github"/></a>
                     <a href="https://www.linkedin.com/in/nickrodbasiri/" target="_blank"><i className="contact-icon fa-brands fa-linkedin"/></a>
                     <a href="mailto:basirinickrod@gmail.com"><i className="contact-icon fa-envelope fa-solid"/></a>
-                    <a href="/resume.pdf" target="_blank"><i className="contact-icon fa-file fa-regular"/></a>
                 </div>
                 <div id="about" className="grid-box">Hi! I'm Nickrod Basiri, a second-year Software Engineering student at York University. I'm passionate about continuous learning and using technology to tackle real-world problems, always striving to make a positive impact.</div>
             </div>
         </>
     )
 }
+
+<a href="/resume.pdf" target="_blank"><i className="contact-icon fa-file fa-regular"/></a>
