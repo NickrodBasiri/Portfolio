@@ -22,7 +22,7 @@ export default function About() {
                     <p>Full Stack Developer</p>
                 </div>
                 <div id="tech" className="grid-box">
-                    <h1 id="tech-label">Tech I Use</h1>
+                    <h1>Tech I Use</h1>
                     <div id="tech-box">
                         <img className="icon" src={htmlIcon}></img>
                         <img className="icon" src={cssIcon}></img>
@@ -39,13 +39,11 @@ export default function About() {
                     <button onClick={() => window.open('/resume.pdf', '_blank')} className="resume-button">
                         Resume
                     </button>
-
-
                 </div>
                 <div id="contact" className="grid-box">
-                    <a href="https://github.com/NickrodBasiri" target="_blank"><i className="contact-icon fa-brands fa-square-github"/></a>
-                    <a href="https://www.linkedin.com/in/nickrodbasiri/" target="_blank"><i className="contact-icon fa-brands fa-linkedin"/></a>
-                    <a href="mailto:basirinickrod@gmail.com"><i className="contact-icon fa-envelope fa-solid"/></a>
+                    <a href="https://github.com/NickrodBasiri" target="_blank"><i className="contact-icon visited:text-white fa-brands fa-square-github"/></a>
+                    <a href="https://www.linkedin.com/in/nickrodbasiri/" target="_blank"><i className="contact-icon visited:text-white fa-brands fa-linkedin"/></a>
+                    <a href="mailto:basirinickrod@gmail.com"><i className="contact-icon visited:text-white fa-envelope fa-solid"/></a>
                 </div>
                 <div id="about" className="grid-box">Hi! I'm Nickrod Basiri, a second-year Software Engineering student at York University. I'm passionate about continuous learning and using technology to tackle real-world problems, always striving to make a positive impact.</div>
             </div>
