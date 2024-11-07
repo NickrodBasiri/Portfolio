@@ -15,7 +15,7 @@ function App() {
               title="Resume Roast"
               description="Resume  Drake, dissing the resume in a personalized and playful manner. Drake will lay down some smooth bars and sharp lyrics highlighting the weaknesses in your resume. After listening to the exceptional track by Toronto's very own, the user is then prompted to fix their resume. They are then treated to yet another musical masterpiece by Drake's biggest rival, Kendrick Lamar. This is where the user gains key insights on specific ways to improve their resume."
               image="/resumeroast.png"
-              tech="react"/>
+              tech="ElevenLabs  Google AI Studio  Tailwind  React  NodeJS"/>
           </section>
         </div>
     </>

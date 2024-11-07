@@ -1,9 +1,6 @@
 #project-card {
-    display: grid;
     grid-template-rows: 1fr 4fr 1fr;
     grid-template-columns: repeat(2, auto);
-    gap: 1em;
-    outline: 2px solid purple;
 }
 
 .project-box {
@@ -20,7 +17,6 @@
 #project-image {
     grid-row: 2 / 4;
     grid-column: 1 / 2;
-    border-radius: 8px;
 }
 
 #project-title {
