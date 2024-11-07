@@ -328,7 +328,7 @@
         max-width: 400px;
     }
     #info-grid {
-        min-width: 40 0px;
+        min-width: 400px;
     }
     #personal {
         font-size: 1.5rem;
@@ -348,7 +348,7 @@
         column-gap: 3rem;
     }
     #about {
-        font-size: 0.9rem;
+        font-size: 1.1rem;
     }
     .resume-button {
         width: 70%;
@@ -356,7 +356,7 @@
         font-size: 2rem;
     }
     .contact-icon {
-        font-size: 3rem;
+        font-size: 3.5rem;
     }
     .icon {
         width: 2.5rem;
