@@ -1,39 +1,17 @@
-#info-grid {
-    display: grid;
-    gap: 1em;
-    width: 60vw;
-}
-
 #personal {
-    opacity: 0;
     animation: fade-in 1s ease-in 0.2s forwards;
-    text-align: center;
 }
 
 #info-card {
     background-color: rgb(8, 72, 92);
-    opacity: 0;
     animation: fade-in-top 1s ease-in 0.6s forwards;
-    text-align: center;
 }
 
 #tech {
-    opacity: 0;
     animation: fade-in-left 1s ease-in 0.4s forwards;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-}
-
-#tech-box {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    place-items: center;
 }
 
 #about {
-    opacity: 0;
     animation: fade-in-bottom 1s ease-in 0.6s forwards;
 }
 
@@ -47,23 +25,13 @@
     flex-direction: column;
 }
 
-#profile {
-    border-radius: 50%;
-    object-fit: cover;
-}
-
 #contact {
-    opacity: 0;
     animation: fade-in-right 1s ease-in 0.8s forwards;
-    display: flex;
-    flex-direction: column;
     justify-content: space-evenly;
 }
 
 .contact-icon {
     transition: text-shadow 0.3s ease-in-out;
-    margin: 0;
-    color: white;
 }
 
 .contact-icon:hover {
@@ -71,15 +39,10 @@
 }
 
 #resume {
-    opacity: 0;
     animation: fade-in-left 1s ease-in 0.8s forwards;
 }
 
 .resume-button {
-    background: none;
-    color: white;
-    border-radius: 8px;
-    border: 2px solid lightgray;
     transition: box-shadow 0.3s ease-in-out;
 }
 
