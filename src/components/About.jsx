@@ -14,7 +14,7 @@ export default function About() {
     return (
         <>
             <div id="info-grid" className='grid gap-[1em] w-[60vw]'>
-                <div id="personal" className="grid-box opacity-0 text-center">
+                <div id="personal" className="grid-box opacity-0 text-center p-4 gap-4">
                     <img id="profile" className='rounded-full object-cover' src={githubPFP}></img>
                     <h1>Nickrod Basiri</h1>
                 </div>
@@ -45,7 +45,7 @@ export default function About() {
                     <a href="https://www.linkedin.com/in/nickrodbasiri/" target="_blank"><i className="contact-icon visited:text-white fa-brands fa-linkedin"/></a>
                     <a href="mailto:basirinickrod@gmail.com"><i className="contact-icon visited:text-white fa-envelope fa-solid"/></a>
                 </div>
-                <div id="about" className="grid-box opacity-0">Hi! I'm Nickrod Basiri, a second-year Software Engineering student at York University. I'm passionate about continuous learning and using technology to tackle real-world problems, always striving to make a positive impact.</div>
+                <div id="about" className="grid-box opacity-0 p-4">Hi! I'm Nickrod Basiri, a second-year Software Engineering student at York University. I'm passionate about continuous learning and using technology to tackle real-world problems, always striving to make a positive impact.</div>
             </div>
         </>
     )
