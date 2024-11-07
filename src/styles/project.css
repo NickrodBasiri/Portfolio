@@ -4,9 +4,7 @@
     grid-template-columns: repeat(2, auto);
     justify-self: center;
     gap: 1em;
-    padding: 1em;
     outline: 2px solid purple;
-    max-width: 60vw;
 }
 
 .project-box {
@@ -23,8 +21,6 @@
 #project-image {
     grid-row: 1 / 4;
     grid-column: 1 / 2;
-    max-width: 30vw;
-    height: auto;
     border-radius: 8px;
 }
 
