@@ -42,6 +42,12 @@
     animation: fade-in-left 1s ease-in 0.8s forwards;
 }
 
+.resume-button {
+    width: 70%;
+    height: 70%;
+    font-size: 2rem;
+}
+
 .resume-button:hover {
     box-shadow: 0 0 10px rgba(0, 150, 255, 0.8), 0 0 20px rgba(0, 150, 255, 0.6);
 }
@@ -181,7 +187,6 @@
     }
     #tech {
         font-size: 3rem;
-        padding: 1rem;
     }
     #tech-box {
         row-gap: 2.5rem;
@@ -190,16 +195,11 @@
     #about {
         font-size: 1.8rem;
     }
-    .resume-button {
-        width: 70%;
-        height: 70%;
-        font-size: 2rem;
-    }
     .contact-icon {
         font-size: 5rem;
     }
     .icon {
-        width: 4rem;
+        width: 3.5rem;
     }
 }
 
@@ -219,21 +219,12 @@
     #info-card p {
         font-size: 2.5rem;
     }
-    #tech {
-        font-size: 2rem;
-        padding: 1rem;
-    }
     #tech-box {
         row-gap: 2rem;
         column-gap: 4rem;
     }
     #about {
         font-size: 1.4rem;
-    }
-    .resume-button {
-        width: 70%;
-        height: 70%;
-        font-size: 1.5rem;
     }
     .contact-icon {
         font-size: 4rem;
@@ -253,33 +244,17 @@
     #personal {
         font-size: 2rem;
     }
-    #profile {
-        width: 7.5rem;
-    }
     #info-card p {
         font-size: 1.7rem;
     }
-    #tech {
-        font-size: 2rem;
-        padding: 1rem;
-    }
     #tech-box {
-        row-gap: 1.5rem;
         column-gap: 3rem;
     }
     #about {
         font-size: 1rem;
     }
-    .resume-button {
-        width: 70%;
-        height: 70%;
-        font-size: 1rem;
-    }
     .contact-icon {
         font-size: 3rem;
-    }
-    .icon {
-        width: 2.5rem;
     }
 }
 
@@ -293,33 +268,14 @@
     #personal {
         font-size: 2.5rem;
     }
-    #profile {
-        width: 7.5rem;
-    }
     #info-card p {
         font-size: 2rem;
     }
-    #tech {
-        font-size: 2rem;
-        padding: 1rem;
-    }
     #tech-box {
-        row-gap: 1.5rem;
         column-gap: 5rem;
-    }
-    #about {
-        font-size: 1.1rem;
-    }
-    .resume-button {
-        width: 70%;
-        height: 70%;
-        font-size: 2rem;
     }
     .contact-icon {
         font-size: 4rem;
-    }
-    .icon {
-        width: 2.5rem;
     }
 }
 
@@ -331,34 +287,15 @@
         min-width: 400px;
     }
     #personal {
-        font-size: 1.5rem;
-    }
-    #profile {
-        width: 7.5rem;
+        font-size: 2rem;
     }
     #info-card p {
         font-size: 1.8rem;
     }
-    #tech {
-        font-size: 2rem;
-        padding: 1rem;
-    }
     #tech-box {
-        row-gap: 1.5rem;
-        column-gap: 3rem;
-    }
-    #about {
-        font-size: 1.1rem;
-    }
-    .resume-button {
-        width: 70%;
-        height: 70%;
-        font-size: 2rem;
+        column-gap: 5rem;
     }
     .contact-icon {
         font-size: 3.5rem;
-    }
-    .icon {
-        width: 2.5rem;
     }
 }

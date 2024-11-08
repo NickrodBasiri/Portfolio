@@ -15,24 +15,24 @@ export default function About() {
         <>
             <div id="info-grid" className='grid gap-[1em] w-[60vw]'>
                 <div id="personal" className="grid-box opacity-0 text-center p-4 gap-4">
-                    <img id="profile" className='rounded-full object-cover' src={githubPFP}></img>
+                    <img id="profile" className='rounded-full object-cover w-32' src={githubPFP}></img>
                     <h1>Nickrod Basiri</h1>
                 </div>
                 <div id="info-card" className="grid-box opacity-0 text-center">
                     <p>Full Stack Developer</p>
                 </div>
-                <div id="tech" className="grid-box opacity-0 flex flex-col justify-evenly">
-                    <h1>Tech I Use</h1>
-                    <div id="tech-box" className='grid place-items-center grid-cols-3 grid-rows-3'>
-                        <img className="icon" src={htmlIcon}></img>
-                        <img className="icon" src={cssIcon}></img>
-                        <img className="icon" src={gitIcon}></img>
-                        <img className="icon" src={javascriptIcon}></img>
-                        <img className="icon" src={typescriptIcon}></img>
-                        <img className="icon" src={reactIcon}></img>
-                        <img className="icon" src={javaIcon}></img>
-                        <img className="icon" src={pythonIcon}></img>
-                        <img className="icon" src={tailwindIcon}></img>
+                <div id="tech" className="grid-box opacity-0 flex flex-col p-4 text-[2rem]">
+                    <h1 className='mb-4'>Tech I Use</h1>
+                    <div id="tech-box" className='grid place-items-center grid-cols-3 grid-rows-3 gap-y-[1.5rem]'>
+                        <img className="icon w-10" src={htmlIcon}></img>
+                        <img className="icon w-10" src={cssIcon}></img>
+                        <img className="icon w-10" src={gitIcon}></img>
+                        <img className="icon w-10" src={javascriptIcon}></img>
+                        <img className="icon w-10" src={typescriptIcon}></img>
+                        <img className="icon w-10" src={reactIcon}></img>
+                        <img className="icon w-10" src={javaIcon}></img>
+                        <img className="icon w-10" src={pythonIcon}></img>
+                        <img className="icon w-10" src={tailwindIcon}></img>
                     </div>
                 </div>
                 <div id="resume" className='grid-box opacity-0'>
@@ -45,7 +45,7 @@ export default function About() {
                     <a href="https://www.linkedin.com/in/nickrodbasiri/" target="_blank"><i className="contact-icon visited:text-white fa-brands fa-linkedin"/></a>
                     <a href="mailto:basirinickrod@gmail.com"><i className="contact-icon visited:text-white fa-envelope fa-solid"/></a>
                 </div>
-                <div id="about" className="grid-box opacity-0 p-4">Hi! I'm Nickrod Basiri, a second-year Software Engineering student at York University. I'm passionate about continuous learning and using technology to tackle real-world problems, always striving to make a positive impact.</div>
+                <div id="about" className="grid-box opacity-0 p-4 text-[1.1rem]">Hi! I'm Nickrod Basiri, a second-year Software Engineering student at York University. I'm passionate about continuous learning and using technology to tackle real-world problems, always striving to make a positive impact.</div>
             </div>
         </>
     )
