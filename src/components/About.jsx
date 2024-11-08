@@ -36,7 +36,7 @@ export default function About() {
                     </div>
                 </div>
                 <div id="resume" className='grid-box col-span-2 col-start-1 md:col-start-1 md:col-end-2 row-start-5 md:row-start-5 row-end-6 md:row-end-6 opacity-0'>
-                    <button onClick={() => window.open('/resume.pdf', '_blank')} className="bg-white shadow-md rounded-lg font-bold text-gray-600 transition-shadow duration-300 ease-in-out resume-button">
+                    <button onClick={() => window.open('/resume.pdf', '_blank')} id="resume-button" className="bg-white shadow-md p-2 rounded-lg font-bold text-[2rem] text-gray-600 transition-shadow duration-300 ease-in-out">
                         Resume
                     </button>
                 </div>

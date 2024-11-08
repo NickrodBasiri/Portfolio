@@ -1,4 +1,5 @@
 import About from "./components/About"
+import Footer from "./components/Footer"
 import Project from "./components/Project"
 
 function App() {
@@ -30,6 +31,9 @@ function App() {
               tech={["Javascript", "CSS", "HTML"]}
               github={"https://github.com/NickrodBasiri/Etch-a-Sketch"}/>
           </section>
+          <section>
+            <Footer/>
+        </section>
         </div>
     </>
   )

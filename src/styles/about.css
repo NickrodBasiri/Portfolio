@@ -42,13 +42,7 @@
     animation: fade-in-left 1s ease-in 0.8s forwards;
 }
 
-.resume-button {
-    width: 70%;
-    height: 70%;
-    font-size: 2rem;
-}
-
-.resume-button:hover {
+#resume-button:hover {
     box-shadow: 0 0 10px rgba(0, 150, 255, 0.8), 0 0 20px rgba(0, 150, 255, 0.6);
 }
 
