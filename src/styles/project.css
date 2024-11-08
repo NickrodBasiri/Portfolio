@@ -4,6 +4,10 @@
     color: white;
 }
 
+#project-tech {
+    background-color: rgb(8, 72, 92);
+}
+
 @media (min-width: 1301px) {
     #project-card {
         min-width: 1201px;
