@@ -30,11 +30,11 @@
     justify-content: space-evenly;
 }
 
-.contact-icon {
+.contact-icon, .fa-arrow-up-right-from-square {
     transition: text-shadow 0.3s ease-in-out;
 }
 
-.contact-icon:hover {
+.contact-icon:hover, .fa-arrow-up-right-from-square:hover {
     text-shadow: 0 0 10px rgba(0, 150, 255, 0.8), 0 0 20px rgba(0, 150, 255, 0.6);
 }
 

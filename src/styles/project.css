@@ -8,6 +8,11 @@
     background-color: rgb(8, 72, 92);
 }
 
+#project-card.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
 @media (min-width: 1301px) {
     #project-card {
         min-width: 1201px;
