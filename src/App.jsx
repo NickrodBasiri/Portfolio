@@ -14,7 +14,7 @@ function App() {
             <h1 className="mb-8 text-7xl text-white">Projects</h1>
               <Project
               title="Resume Roast"
-              description="Resume dissing the resume in a personalized and playful manner. Drake will lay down some smooth bars and sharp lyrics highlighting the weaknesses in your resume. After listening to the exceptional track by Toronto's very own, the user is then prompted to fix their resume. They are then treated to yet another musical masterpiece by Drake's biggest rival, Kendrick Lamar. This is where the user gains key insights on specific ways to improve their resume."
+              description="Resume Roast is tool that uses AI and voice replication systems to help improve your resume through an epic rap battle. Drake humorously disses your resume’s weak points, followed by Kendrick Lamar’s motivating track, offering key improvement insights. This unique, playful experience combines entertainment with actionable feedback to help you elevate your resume."
               image="/resumeroast.png"
               tech={["ElevenLabs", "Google AI Studio", "React", "Tailwind"]}
               github={"https://github.com/NickrodBasiri/IgnitionHacks_ResumeRoast"}/>
@@ -33,7 +33,7 @@ function App() {
           </section>
           <section>
             <Footer/>
-        </section>
+          </section>
         </div>
     </>
   )
