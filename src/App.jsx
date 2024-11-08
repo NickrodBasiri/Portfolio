@@ -13,9 +13,16 @@ function App() {
             <h1 className="mb-8 text-7xl text-white">Projects</h1>
             <Project
               title="Resume Roast"
-              description="Resume  Drake, dissing the resume in a personalized and playful manner. Drake will lay down some smooth bars and sharp lyrics highlighting the weaknesses in your resume. After listening to the exceptional track by Toronto's very own, the user is then prompted to fix their resume. They are then treated to yet another musical masterpiece by Drake's biggest rival, Kendrick Lamar. This is where the user gains key insights on specific ways to improve their resume."
+              description="Resume dissing the resume in a personalized and playful manner. Drake will lay down some smooth bars and sharp lyrics highlighting the weaknesses in your resume. After listening to the exceptional track by Toronto's very own, the user is then prompted to fix their resume. They are then treated to yet another musical masterpiece by Drake's biggest rival, Kendrick Lamar. This is where the user gains key insights on specific ways to improve their resume."
               image="/resumeroast.png"
-              tech="ElevenLabs  Google AI Studio  Tailwind  React  NodeJS"/>
+              tech={["ElevenLabs", "Google AI Studio", "React", "Tailwind"]}
+              github={"https://github.com/NickrodBasiri/IgnitionHacks_ResumeRoast"}/>
+              <Project
+              title="Express-CV"
+              description="Express-CV allows users to quickly input their personal information, education, and work experience to generate a clean, professional looking resume in real time. Simplifying resume creation, Express-CV offers a simple and intuitive interface for building custom CV's."
+              image="/expressCV.png"
+              tech={["React", "Javascript", "Node.js"]}
+              github={"https://github.com/NickrodBasiri/Express-CV"}/>
           </section>
         </div>
     </>
