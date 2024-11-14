@@ -36,17 +36,17 @@ export default function About() {
                     </div>
                 </div>
                 <div id="resume" className='grid-box col-span-2 col-start-1 md:col-start-1 md:col-end-2 row-start-5 md:row-start-5 row-end-6 md:row-end-6 opacity-0'>
-                    <button onClick={() => window.open('/resume.pdf', '_blank')} id="resume-button" className="bg-white shadow-md p-2 rounded-lg font-bold text-[2rem] text-gray-600 transition-shadow duration-300 ease-in-out">
+                    <button onClick={() => window.open('/resume.pdf', '_blank')} id="resume-button" className="bg-white shadow-md pr-2 pl-2 rounded-lg font-bold text-[#201e25] text-[2rem] transition-shadow duration-300 ease-in-out">
                         Resume
                     </button>
                 </div>
                 <div id="contact" className="flex flex-col grid-box col-start-2 md:col-start-3 col-end-3 md:col-end-4 row-start-1 md:row-start-1 row-end-2 md:row-end-4 opacity-0">
-                    <a href="https://github.com/NickrodBasiri" target="_blank"><i className="visited:text-white contact-icon fa-brands fa-square-github"/></a>
-                    <a href="https://www.linkedin.com/in/nickrodbasiri/" target="_blank"><i className="visited:text-white contact-icon fa-brands fa-linkedin"/></a>
-                    <a href="mailto:basirinickrod@gmail.com"><i className="visited:text-white contact-icon fa-envelope fa-solid"/></a>
+                    <a href="https://github.com/NickrodBasiri" target="_blank"><i className="text-[3rem] visited:text-white contact-icon fa-brands fa-square-github"/></a>
+                    <a href="https://www.linkedin.com/in/nickrodbasiri/" target="_blank"><i className="text-[3rem] visited:text-white contact-icon fa-brands fa-linkedin"/></a>
+                    <a href="mailto:basirinickrod@gmail.com"><i className="text-[3rem] visited:text-white contact-icon fa-envelope fa-solid"/></a>
                 </div>
-                <div id="about" className="grid-box col-span-2 md:col-span-2 col-start-1 md:col-start-2 row-start-3 md:row-start-4 row-end-4 md:row-end-6 opacity-0 p-4 text-[1.1rem]">
-                    Hi! I&apos;m Nickrod Basiri, a second-year Software Engineering student at York University. I&apos;m passionate about continuous learning and using technology to tackle real-world problems, always striving to make a positive impact.
+                <div id="about" className="grid-box col-span-2 md:col-span-2 col-start-1 md:col-start-2 row-start-3 md:row-start-4 row-end-4 md:row-end-6 opacity-0">
+                    <h1 className='pr-8 pl-8 text-[1rem]'>Hi! I&apos;m Nickrod Basiri, a second-year Software Engineering student at York University. I&apos;m passionate about continuous learning and using technology to tackle real-world problems, always striving to make a positive impact.</h1>
                 </div>
             </div>
         </>

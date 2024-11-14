@@ -99,41 +99,7 @@
     }
 }
 
-@media (min-width: 1301px) {
-    #container {
-        max-width: 1201px;
-    }
-    #info-grid {
-        min-width: 1201px;
-    }
-    #personal {
-        font-size: 3rem;
-    }
-    #profile {
-        width: 15rem;
-    }
-    #info-card p {
-        font-size: 3rem;
-    }
-    #tech {
-        font-size: 3rem;
-    }
-    #tech-box {
-        row-gap: 2.5rem;
-        column-gap: 5rem;
-    }
-    #about {
-        font-size: 1.6rem;
-    }
-    .contact-icon {
-        font-size: 5rem;
-    }
-    .icon {
-        width: 3.5rem;
-    }
-}
-
-@media (min-width: 1025px) and (max-width: 1300px) {
+@media (min-width: 1025px) {
     #container {
         max-width: 925px;
     }
@@ -153,14 +119,11 @@
         row-gap: 2rem;
         column-gap: 4rem;
     }
-    #about {
-        font-size: 1.2rem;
-    }
-    .contact-icon {
-        font-size: 4rem;
-    }
     .icon {
         width: 3rem;
+    }
+    #about h1 {
+        font-size: 1.1rem;
     }
 }
 
@@ -180,11 +143,11 @@
     #tech-box {
         column-gap: 3rem;
     }
-    #about {
-        font-size: 1rem;
+    #about h1{
+        font-size: 0.9rem;
     }
     .contact-icon {
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 }
 
@@ -204,9 +167,6 @@
     #tech-box {
         column-gap: 5rem;
     }
-    .contact-icon {
-        font-size: 4rem;
-    }
 }
 
 @media (max-width: 575px) {
@@ -224,8 +184,5 @@
     }
     #tech-box {
         column-gap: 5rem;
-    }
-    .contact-icon {
-        font-size: 3.5rem;
     }
 }
